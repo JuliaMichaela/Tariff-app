@@ -1,7 +1,7 @@
 import "../styles/tariff.css";
 
 export default function Tariff(props) {
-    const { card, setId, theme } = props;
+    // const { card, setId, theme } = props;
 
 
 
