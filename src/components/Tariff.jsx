@@ -11,6 +11,7 @@ export default function Tariff(props) {
             <div className={`card_price ${theme.card_price}`}>
                 <p className="card_value">{card.priceTextHigh}</p>
                 <p className="card_number">{card.price}</p>
+
                 <p className="card_date">{card.priceTextLow}</p>
             </div>
             <div className="card_speed">{card.speed}</div>
