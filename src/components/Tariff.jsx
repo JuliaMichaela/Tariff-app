@@ -13,6 +13,8 @@ export default function Tariff(props) {
                 <p className="card_number">{card.price}</p>
 
                 <p className="card_date">{card.priceTextLow}</p>
+
+
             </div>
             <div className="card_speed">{card.speed}</div>
             <footer className="card_footer">{card.condition}</footer>
