@@ -1,5 +1,6 @@
-
+import Tariff from './components/Tariff';
 import './App.css'
+
 
 function App() {
 
