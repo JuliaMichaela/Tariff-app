@@ -1,8 +1,10 @@
 import Tariff from './components/Tariff';
 import './App.css'
+import { useState } from 'react';
 
 
 function App() {
+  const [selectedId, setSelectedId] = useState();
 
   return (
     <>
