@@ -2,11 +2,14 @@ import "../styles/tariff.css";
 
 export default function Tariff(props) {
     const { card, setId, theme } = props;
+    const classCard = (isSelected ? "selected" : "");
 
-
+    function handleChange() {
+        setId(card.id);
+    }
 
     return (
-        <div className={`card ${classCard}`}>
+        <div className={`card ${classCard}`} onClick={handleChange}>
             <header className={`card_header ${theme.card_header}`}>{card.name}</header>
             <div className={`card_price ${theme.card_price}`}>
                 <p className="card_value">{card.priceTextHigh}</p>
