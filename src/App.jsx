@@ -2,6 +2,7 @@ import Tariff from './components/Tariff';
 import './App.css'
 import tariffs from './common/Tariff';
 import { useState } from 'react';
+import themeA from "./styles/300.module.css";
 
 
 function App() {
