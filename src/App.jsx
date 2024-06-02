@@ -5,6 +5,7 @@ import { useState } from 'react';
 import themeA from "./styles/300.module.css";
 import themeB from "./styles/450.module.css";
 import themeC from "./styles/550.module.css";
+import themeD from "./styles/1000.module.css";
 
 function App() {
   const [selectedId, setSelectedId] = useState();
