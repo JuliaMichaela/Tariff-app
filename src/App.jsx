@@ -19,7 +19,7 @@ function App() {
             key={tariff.id}
             card={tariff}
             isSelected={tariff.id === selectedId}
-            setId={setSelectedId}
+            // setId={setSelectedId}
             theme={themes[i]}
           />
         )
