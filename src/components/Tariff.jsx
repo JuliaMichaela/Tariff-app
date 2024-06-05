@@ -1,4 +1,4 @@
-import "../styles/tariff.css";
+import "./Tariff.css";
 
 export default function Tariff(props) {
     const { card, setId, theme } = props;
