@@ -1,7 +1,7 @@
 import "./Tariff.css";
 
 export default function Tariff(props) {
-    const { card, setId, theme } = props;
+    const { card, setId, theme, isSelected } = props;
     const classCard = (isSelected ? "selected" : "");
 
     function handleChange() {
