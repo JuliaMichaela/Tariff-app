@@ -4,9 +4,9 @@ export default function Tariff(props) {
     const { card, setId, theme, isSelected } = props;
     const classCard = (isSelected ? "selected" : "");
 
-    function handleChange() {
-        setId(card.id);
-    }
+    // function handleChange() {
+    //     setId(card.id);
+    // }
 
     return (
         <div className={`card ${classCard}`} onClick={handleChange}>
